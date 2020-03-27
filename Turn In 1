@@ -1,0 +1,40 @@
+library(ma391)
+
+
+#PROBLEM 7.5.5
+
+#part b
+up=function(x){(x/(12*171))+(2*(x^1/2))/(12*171)}
+low=function(x){x/(12*171)+(2*(x^1/2))/(12*171)}
+
+up(2050)
+
+#part c
+up=function(x){(2050/(12*x))+(2*(2050^1/2))/(12*x)}
+low=function(x){x/(12*171)+(2*(x^1/2))/(12*171)}
+up(178.37)
+
+#PROBLEM 7.5.6
+
+#part a
+#NO CODE NEEDED
+
+#Part b
+
+ppois(189,171)-ppois(152,171)
+
+
+#Part c
+
+ppois(197,171)-ppois(145,171)
+
+#OR
+
+qpois(.975,171)
+
+
+
+#PROBLEM 7.5.11
+
+#NO CODE USED
+
